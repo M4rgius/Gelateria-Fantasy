@@ -6,7 +6,7 @@ import data from "../fakeData";
 
 
 const Menu = () => {
-    const[prodotti,setProdotti]=useState(data)
+    const[prodotti]=useState(data)
     const[selected,setSelected]=useState(0)
     const[filterProducts,setFilterProducts]=useState(prodotti)
 
